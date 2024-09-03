@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Navigation Menu</title>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="active">Home</a></li>
+            <li class="nav-item"><a href="#items">Items</a></li>
+            <li class="nav-item"><a href="#about">About Us</a></li>
+            <li class="nav-item"><a href="#contact">Contact Us</a></li>
+            <li class="nav-item"><a href="#order">Order</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to Our Store</h1>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Items Section -->
+    <section id="items">
+        <h2>Items for Order</h2>
+        <div class="item-list">
+            <div class="item">
+                <img src="mouse.jfif" alt="Item 1">
+                <h3>Mouse</h3>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="keyboard.jfif" alt="Item 2">
+                <h3>KeyBoard</h3>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="speaker.jfif" alt="Item 3">
+                <h3>Speaker</h3>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="heaphone.jfif" alt="Item 4">
+                <h3>Headphone</h3>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="fan.jfif" alt="Item 5">
+                <h3>Fan</h3>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <!-- Add more items as needed -->
+        </div>
+        <a href="#order"><button class="checkout-btn">Check Out</button></a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading store providing the best products at the most affordable prices. Our mission is to offer high-quality items with excellent customer service. We pride ourselves on being a trusted name in the industry. Join us in this journey of growth and quality. Your satisfaction is our priority.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@ourstore.com</p>
+        <p>Address: 123 Main Street, City, Country</p>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order">
+        <h2>Your Cart</h2>
+        <ul id="cart-items" class="cart-items"></ul>
+        <button class="finalize-order-btn">Finalize Order</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
